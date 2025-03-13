@@ -3,13 +3,13 @@
 ## Tech stack
 
 ```
-React: UI library
-TypeScript: Type safety
-Vite: Build tool
-Tailwind CSS: Utility-first CSS framework
-React Query: Server state management
-Vitest: Testing framework
-React Testing Library: Component testing
+React
+TypeScript
+Vite
+Tailwind CSS
+React Query
+Vitest
+React Testing Library
 ```
 
 ## Installation
@@ -51,7 +51,6 @@ harapa-fe-yang/
 │   ├── App.tsx            # Main app component
 │   ├── main.tsx           # Entry point
 │   └── vite-env.d.ts      # Vite type declarations
-├── .env                   # Environment variables
 ├── index.html             # HTML template
 ├── package.json           # Dependencies and scripts
 ├── tsconfig.json          # TypeScript configuration
