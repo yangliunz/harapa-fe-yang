@@ -1,56 +1,60 @@
 # Code Challenge Project
 
-# Tech stack
+## Tech stack
 
-`React: UI library
+```
+React: UI library
 TypeScript: Type safety
 Vite: Build tool
 Tailwind CSS: Utility-first CSS framework
 React Query: Server state management
 Vitest: Testing framework
-React Testing Library: Component testing`
+React Testing Library: Component testing
+```
 
-# Installation
+## Installation
 
-`git clone [repository-url]`
+`git clone https://github.com/yangliunz/harapa-fe-yang`
 `cd harapa-fe-yang`
 `pnpm install`
 OR
 `npm install` / `yarn install`
 
-# Development
+## Development
 
 `npm run dev`
 
 Visit http://localhost:5173 in your browser.
 
-# Testing
+## Testing
 
 `npm test`
 
-# Project Structure
+## Project Structure
 
-`harapa-fe-yang/
-├── public/ # Static assets
+```
+harapa-fe-yang/
+├── public/                # Static assets
 ├── src/
-│ ├── apis/ # API integration and hooks
-│ ├── assets/ # Compiled assets
-│ ├── components/ # Reusable components
-│ │ ├── common/ # Common UI components
-│ │ ├── StudentGridCard/
-│ │ ├── StudentsGriD/
-│ │ └── StudentSideDrawer/
-│ ├── interfaces/ # TypeScript interfaces
-│ ├── lib/ # Utility libraries
-│ ├── pages/ # Page components
-│ ├── test/ # Test setup and utilities
-│ ├── App.css # Global styles
-│ ├── App.tsx # Main app component
-│ ├── main.tsx # Entry point
-│ └── vite-env.d.ts # Vite type declarations
-├── .env # Environment variables
-├── index.html # HTML template
-├── package.json # Dependencies and scripts
-├── tsconfig.json # TypeScript configuration
-├── vite.config.ts # Vite configuration
-└── vitest.config.ts # Vitest configuration`
+│   ├── apis/              # API integration and hooks
+│   ├── assets/            # Compiled assets
+│   ├── components/        # Reusable components
+│   │   ├── common/        # Common UI components
+│   │   ├── StudentGridCard/
+│   │   ├── StudentsGriD/
+│   │   └── StudentSideDrawer/
+│   ├── interfaces/        # TypeScript interfaces
+│   ├── lib/               # Utility libraries
+│   ├── pages/             # Page components
+│   ├── test/              # Test setup and utilities
+│   ├── App.css            # Global styles
+│   ├── App.tsx            # Main app component
+│   ├── main.tsx           # Entry point
+│   └── vite-env.d.ts      # Vite type declarations
+├── .env                   # Environment variables
+├── index.html             # HTML template
+├── package.json           # Dependencies and scripts
+├── tsconfig.json          # TypeScript configuration
+├── vite.config.ts         # Vite configuration
+└── vitest.config.ts       # Vitest configuration
+```
