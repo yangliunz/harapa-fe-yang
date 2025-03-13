@@ -22,6 +22,8 @@ npm install / yarn install
 
 npm run dev
 
+Visit http://localhost:5173 in your browser.
+
 # Testing
 
 npm test
